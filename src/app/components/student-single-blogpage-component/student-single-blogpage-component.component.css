@@ -1,0 +1,52 @@
+.commonstyle{
+    font-size:large;
+    color:deeppink;
+    
+    
+}
+.db{
+    color: black;
+}
+.butn:hover{
+    transition: all 0.5s ease-in;
+    border-top-right-radius: 25px;
+    cursor: pointer;
+  }
+.card-header{
+    text-align: center;
+    font-weight:550;
+    color: orangered;
+  }
+p{
+    font-style: italic;
+  }
+.card-body{
+    text-align: left;
+    line-height: 1cm;
+    color: darkgoldenrod;
+  }
+.card{
+    border: 1px solid darkgoldenrod;
+  }
+/* footer */
+footer{
+    background-color:rgb(244, 235, 235);
+    margin-left: -30px;
+    margin-bottom: -13px;
+    margin-top: 30px;
+    
+}
+footer p {
+    padding: 20px 0;
+    text-align: center;
+    color: gray;
+    font-size: small;
+    font-weight:500;
+    font-style: normal;
+    
+}
+
+footer img {
+    width: 44px;
+}
+    

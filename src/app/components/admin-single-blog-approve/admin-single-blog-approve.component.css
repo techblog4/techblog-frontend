@@ -1,0 +1,37 @@
+ .card-header{
+    text-align: center;
+    font-weight:550;
+    color: red;
+  
+  }
+ .card-body{
+    text-align: left;
+    line-height: 1cm;
+    color:maroon;
+  }
+  .card{
+    border: 5px solid bisque;
+  }
+  p{
+  font-style: italic;
+  color: maroon;
+  }
+  /* footer */
+  footer{
+    background-color:#f5f5f5;
+    margin-left: -30px;
+    margin-bottom: -15px;
+    margin-top: 20px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+  footer p {
+    padding: 20px 0;
+    text-align: center;
+    color: gray; 
+  }
+  .container{
+    margin-bottom:100px;
+  }
+  

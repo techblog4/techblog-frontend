@@ -1,0 +1,206 @@
+.bg-body{
+  background-color:white; 
+  height: 100%;
+ 
+}
+.bg-nav{
+  background-color:rgb(244 191 28);; 
+  padding: 25px;
+}
+.container-fluid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 10%;
+  grid-row-gap: 30%;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 1%;
+  grid-row-gap: 100px;
+
+}
+.m-top{
+  margin-top: 100px;
+}
+.head{
+  text-align: center;
+  font-weight:800;
+  color:rgb(181, 32, 32);
+  font-size:35px;
+  font-family:monospace;
+  text-transform: uppercase;
+  font-style: italic;
+
+
+} 
+
+.navlink a{
+  text-decoration: none;
+  font-size:15px;
+  font-weight: 600;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+.navlink a:hover{
+  transition: all 0.25s ease-out;
+  color:white;
+}
+#navbarDropdownMenuLink {
+  text-decoration: none;
+  font-size:15px;
+  font-weight: 600;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+#navbarDropdownMenuLink:hover{
+  color: white;
+
+}
+.dropdown-menu{
+  line-height: 1cm;
+
+}
+.dropdown-item{
+  color:black;
+
+}
+.dropdown-item:hover{
+  padding-left:25px;
+  border-left:3px solid #055160 ;
+  color:#055160;
+  background-color: white;
+  overflow: hidden;
+}
+
+.copyright-area{
+  background: #202020;
+  padding: 20px 0; 
+  width: 100%;
+    
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #1D809F;
+} 
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #1D809F;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+
+}
+  
+
+  
+  
+
+  
+     
+      
+
+
+      .cards-list {
+        z-index: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      
+      .card {
+        margin: 30px auto;
+        width: 300px;
+        height: 300px;
+        border-radius: 40px;
+      box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+        cursor: pointer;
+        transition: 0.4s;
+      }
+      
+      .card .card_image {
+        width: inherit;
+        height: inherit;
+        border-radius: 40px;
+      }
+      
+      .card .card_image img {
+        width: inherit;
+        height: inherit;
+        border-radius: 40px;
+        object-fit: cover;
+      }
+      
+      .card_title{
+        text-align: center;
+        /* border-radius: 0px 0px 40px 40px; */
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        /* margin-top: -80px;
+         height: 40px;  */
+        background-color: rgba(0,0,0,0.6);
+        color: white;
+         margin-top: -21.1%; 
+        border-radius: 40px;
+        padding: 5px;
+        
+      }
+      .card_title p{
+        font-size: 15px;
+        font-style: italic;
+      }
+       
+      .card:hover {
+        transform: scale(0.9, 0.9);
+        box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+          -5px -5px 30px 15px rgba(0,0,0,0.22);
+      }
+      
+      .title-white {
+        color: white;
+      }
+      
+      .title-black {
+        color: black;
+      }
+      
+      @media all and (max-width: 500px) {
+        .card-list {
+          /* On small screens, we are no longer using row direction but column */
+          flex-direction: column;
+        }
+      }
+      .button{
+        background-color: #972814;
+        border-radius: 50px;
+        font-size: 15px;
+        border: none;
+        padding:10px
+        
+      }
+      .button a{
+        text-decoration: none;
+        color: white;
+      }
+      .button a:hover{
+        color: black;
+      }
+       .button:hover{
+      
+      transition: all 0.5s ease-in;
+      border-radius:50px;
+      cursor: pointer;
+      background-color: #FBDA61;
+      
+    } 
+      
+
