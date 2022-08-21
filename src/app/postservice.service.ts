@@ -84,6 +84,9 @@ useradd(post:any){
   return this.http.post("https://techblogict.herokuapp.com/addpost", post)
   .subscribe(data=>{console.log(data)})
 }
+getCurrentUser(data:any){
+  return this.http.post<any>('https://techblogict.herokuapp.com/getCurrentUser', {data:data})
+}
 changePwd(data:any,adminEmail: any){
   return this.http.post("https://techblogict.herokuapp.com/changePwd/"+adminEmail, data)
 }
