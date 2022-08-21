@@ -8,13 +8,13 @@ export class ServiceService {
 
 constructor( private http:HttpClient) { }
 addsignup=(item:any)=>{
-    return  this.http.post("http://localhost:4001/signup",{item});
+    return  this.http.post("https://techblogict.herokuapp.com/signup",{item});
   }
 addblogcategory=(item:any)=>{
-    return  this.http.post("http://localhost:4001/addblogcategory",{item});
+    return  this.http.post("https://techblogict.herokuapp.com/addblogcategory",{item});
   }
 loginadd=(data:any)=>{
-   return this.http.post<any>("http://localhost:4001/login",{data});
+   return this.http.post<any>("https://techblogict.herokuapp.com/login",{data});
  }
 loggedin(){
   return !!localStorage.getItem('token');
